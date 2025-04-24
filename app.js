@@ -7,13 +7,15 @@ import logger from 'morgan';
 import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
 
+
 import app from express();
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
-app.use(logger('dev'));
+const morganFormat = process.env.NODE_ENV === "production" ? "dev" : 'combined'
+app.use(morgan(morganFormat, { stream: winstonLogger.stream }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -27,15 +29,6 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-// error handler
-// app.use(function(err, req, res, next) {
-//   // set locals, only providing error in development
-//   res.locals.message = err.message;
-//   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-//   // render the error page
-//   res.status(err.status || 500);
-//   res.render('error');
-// });
 
 export default app;

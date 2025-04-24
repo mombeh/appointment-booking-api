@@ -41,7 +41,6 @@ const logger = winston.createLogger({
   exitOnError: false
 })
 
-
 if (process.env.NODE_ENV !== "production") {
   logger.add(new winston.transports.Console({
     format: combine(
@@ -58,6 +57,5 @@ logger.stream = {
     logger.info(message.substring(0, message.lastIndexOf("\n")))
   }
 }
-
 
 export default logger

@@ -87,3 +87,20 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
+
+const startServer = async () => {
+  try {
+    logger.info(`Attempting to Start server on port ${port}`)
+    await connectToDb()
+    await initialzeDbSchema()
+    logger.info(`Starting server on port ${port}`)
+    server.listen(port);
+    server.on('error', onError);
+    server.on('listening', onListening);
+  } catch (error) {
+    logger.error('Failed during server startup process: ', error)
+    process.exit(1)
+  }
+}
+
+startServer()
