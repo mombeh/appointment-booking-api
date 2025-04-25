@@ -1,10 +1,12 @@
+//routes/users.js
+
 import express from 'express';
-// import authMiddleware from '../middlewares/authmiddleware.js';
+import authMiddleware from '../middlewares/authmiddleware.js';
 import logger from '../utils/logger.js';
 const router = express.Router();
 
 /* GET users listing. */
-router.get('/', (req, res, next) => {
+router.get('/', authMiddleware, (req, res, next) => {
   logger.info('Fetching current user data for:', req.user);
   return res.json({ user: req.user })
 });

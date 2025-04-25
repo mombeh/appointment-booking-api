@@ -34,7 +34,7 @@ export default async function loginHandler(req, res, next) {
       }, (err, token) => {
         if (err) {
           logger.error(`Error generating JWT for ${email}: `, err)
-          throw new Error('Error generating authentication token')
+          throw new Error('Error generating authentication toke')
         }
         logger.info(`User logged in successfully: ${email} (ID: ${user.id})`)
         res.json({

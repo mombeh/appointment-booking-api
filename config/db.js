@@ -1,3 +1,5 @@
+//config/db.js
+
 import pg from "pg"
 import logger from "../utils/logger.js"
 

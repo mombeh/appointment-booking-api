@@ -1,3 +1,5 @@
+//routes/index
+
 import express from 'express';
 // import authMiddleware from '../middlewares/authmiddleware.js';
 const router = express.Router();
