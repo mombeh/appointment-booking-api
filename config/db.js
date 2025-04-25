@@ -49,7 +49,8 @@ const initializeDbSchema = async () => {
     await client.query(`
        CREATE TABLE IF NOT EXISTS users (
          id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-         name VARCHAR(100) NOT NULL,
+         first_name VARCHAR(100) NOT NULL,
+         last_name VARCHAR(100) NOT NULL,
          email VARCHAR(255) UNIQUE NOT NULL,
          password VARCHAR(255) NOT NULL,
          created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
@@ -58,10 +59,37 @@ const initializeDbSchema = async () => {
      `);
     logger.info('Users table has been created')
 
+      // Service Providers Table (Simplified)
+      await client.query(`
+        CREATE TABLE IF NOT EXISTS service_providers (
+        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+        name VARCHAR(100) NOT NULL,
+        service_type VARCHAR(100),
+        email VARCHAR(255) UNIQUE,
+        created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
+   logger.info('service_provider table has been created')
+
+  // Appointments Table
+  await client.query(`
+    CREATE TABLE IF NOT EXISTS appointments (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      provider_id UUID NOT NULL REFERENCES service_providers(id) ON DELETE CASCADE,
+      appointment_time TIMESTAMPTZ NOT NULL,
+      status VARCHAR(50) DEFAULT 'pending', -- pending, confirmed, cancelled, completed
+      notes TEXT,
+      created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
+      updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+ logger.info('appointments table has been created')
+
     await client.query(`
          CREATE TABLE IF NOT EXISTS time_slots (
          id SERIAL PRIMARY KEY,
-         provider_id INTEGER REFERENCES service_providers(id) ON DELETE CASCADE,
+         provider_id UUID REFERENCES service_providers(id) ON DELETE CASCADE,
          date DATE NOT NULL,
          start_time TIME NOT NULL,
          end_time TIME NOT NULL,
@@ -70,40 +98,22 @@ const initializeDbSchema = async () => {
          `)
     logger.info('time_slots table has been created')
 
-    // Service Providers Table (Simplified)
-    await client.query(`
-         CREATE TABLE IF NOT EXISTS service_providers (
-         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-         name VARCHAR(100) NOT NULL,
-         service_type VARCHAR(100),
-         email VARCHAR(255) UNIQUE,
-         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
-       );
-     `);
-    logger.info('time_slots table has been created')
-
-
-    // Appointments Table
-    await client.query(`
-       CREATE TABLE IF NOT EXISTS appointments (
-         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-         user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-         provider_id UUID NOT NULL REFERENCES service_providers(id) ON DELETE CASCADE,
-         appointment_time TIMESTAMPTZ NOT NULL,
-         status VARCHAR(50) DEFAULT 'pending', -- pending, confirmed, cancelled, completed
-         notes TEXT,
-         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
-         updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
-       );
-     `);
-    logger.info('appointment table has been created')
-
     await client.query(`CREATE INDEX IF NOT EXISTS idx_users_email ON users(email)`);
-    await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments_time_slot_id ON appointments(time_slot_id)`);
     await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments_user_id ON appointments(user_id)`);
     await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments_provider_id ON appointments(provider_id)`);
+    await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments time_slot_id UUID REFERENCES time_slots(id) `);
 
     logger.info('Indexes have been ensured')
+
+    await client.query(`
+      INSERT INTO service_providers (name, service_type, email)
+      VALUES 
+        ('Dr. Alice Smith', 'Dermatologist', 'alice@clinic.com'),
+        ('Dr. Bob Johnson', 'Therapist', 'bob@therapycenter.com')
+      ON CONFLICT (email) DO NOTHING;
+    `);
+    logger.info('Pre-configured providers inserted');
+    
 
     // Update updated_at column automatically
     await client.query(`

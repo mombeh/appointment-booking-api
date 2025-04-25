@@ -1,106 +1,79 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
-
-import app from '../app';
+import app from '../app.js';
 import http from 'http';
-const debug = deb('appointment-booking-api:server')
-/**
- * Get port from environment and store in Express.
- */
+import debug from 'debug';
+import winstonLogger from '../utils/logger.js'; // or whatever logger you use
+// import connectToDb and initializeDbSchema if you're using them
 
-let port = normalizePort(process.env.PORT || '3000');
+const logger = winstonLogger; // or `debug('appointment-booking-api:server')`
+const log = debug('appointment-booking-api:server')
+
+const port = normalizePort(process.env.PORT || '3050');
 app.set('port', port);
 
-/**
- * Create HTTP server.
- */
+const server = http.createServer(app); // Use the Express app!
 
-const server = http.createServer(app);
+const startServer = async () => {
+  try {
+    logger.info(`Attempting to start server on port ${port}`);
+    
+    // optional: if you have DB connection logic
+    // await connectToDb();
+    // await initializeDbSchema();
 
-/**
- * Listen on provided port, on all network interfaces.
- */
-
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
-
-/**
- * Normalize a port into a number, string, or false.
- */
+    server.listen(port);
+    server.on('error', onError);
+    server.on('listening', onListening);
+  } catch (error) {
+    logger.error('Failed during server startup process:', error);
+    process.exit(1);
+  }
+};
 
 function normalizePort(val) {
   const port = parseInt(val, 10);
-
-  if (isNaN(port)) {
-    // named pipe
-    return val;
-  }
-
-  if (port >= 0) {
-    // port number
-    return port;
-  }
-
+  if (isNaN(port)) return val;
+  if (port >= 0) return port;
   return false;
 }
 
-/**
- * Event listener for HTTP server "error" event.
- */
-
 function onError(error) {
-  if (error.syscall !== 'listen') {
-    throw error;
-  }
+  if (error.syscall !== 'listen') throw error;
+  const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
-  const bind = typeof port === 'string'
-    ? 'Pipe ' + port
-    : 'Port ' + port;
-
-  // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
       console.error(bind + ' requires elevated privileges');
       process.exit(1);
-      break;
     case 'EADDRINUSE':
       console.error(bind + ' is already in use');
       process.exit(1);
-      break;
     default:
       throw error;
   }
 }
 
-/**
- * Event listener for HTTP server "listening" event.
- */
-
 function onListening() {
   const addr = server.address();
-  const bind = typeof addr === 'string'
-    ? 'pipe ' + addr
-    : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+  const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
+  log('Listening on ' + bind);
+  console.log(`🚀 Server running at http://localhost:${port}/`);
 }
 
-const startServer = async () => {
-  try {
-    logger.info(`Attempting to Start server on port ${port}`)
-    await connectToDb()
-    await initialzeDbSchema()
-    logger.info(`Starting server on port ${port}`)
-    server.listen(port);
-    server.on('error', onError);
-    server.on('listening', onListening);
-  } catch (error) {
-    logger.error('Failed during server startup process: ', error)
-    process.exit(1)
-  }
-}
+// const startServer = async () => {
+//   try {
+//     logger.info(`Attempting to Start server on port ${port}`)
+//     await connectToDb()
+//     await initialzeDbSchema()
+//     logger.info(`Starting server on port ${port}`)
+//     server.listen(port);
+//     server.on('error', onError);
+//     server.on('listening', onListening);
+//   } catch (error) {
+//     logger.error('Failed during server startup process: ', error)
+//     process.exit(1)
+//   }
+// }
 
 startServer()

@@ -15,15 +15,15 @@ const authMiddleware = (req, res, next) => {
     req.user = decoded.user
     logger.debug(`Auth middleware: Token verified for user ID ${req.user.id}`)
     next()
-  } catch (error) {
-    logger.error('Auth iddleware: token verification failed', err)
+  } catch (err) {
+    logger.error('Auth middleware: token verification failed', err)
     if (err.name === 'TokenExpiredError') {
       return res.status(401).json({ message: "Token is expired" })
     }
-    if (error.name === 'JsonWebTokenError') {
+    if (err.name === 'JsonWebTokenError') {
       return res.status(401).json({ message: "Token is not valid" })
     }
-    return res.status(error.status || 500).json({ message: error.message || "server error during token verification" })
+    return res.status(err.status || 500).json({ message: err.message || "server error during token verification" })
   }
 
 }
