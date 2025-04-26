@@ -103,7 +103,7 @@ const initializeDbSchema = async () => {
     await client.query(`CREATE INDEX IF NOT EXISTS idx_users_email ON users(email)`);
     await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments_user_id ON appointments(user_id)`);
     await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments_provider_id ON appointments(provider_id)`);
-    await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments time_slot_id UUID REFERENCES time_slots(id) `);
+    await client.query(`CREATE INDEX IF NOT EXISTS idx_appointments time_slot_id ON appointments time_slots(id) `);
 
     logger.info('Indexes have been ensured')
 

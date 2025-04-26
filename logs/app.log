@@ -3,3 +3,16 @@
 {"level":"info","message":"Attempting to start server on port 3000","timestamp":"2025-04-25 08:33:14"}
 {"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-25 09:19:07"}
 {"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-25 12:22:50"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-25 12:25:32"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-25 12:27:15"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-25 12:31:39"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Apr/2025:12:01:32 +0000] \"POST / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-25 13:01:32"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Apr/2025:12:04:14 +0000] \"POST /ping HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-25 13:04:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Apr/2025:12:04:21 +0000] \"POST /ping HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-25 13:04:21"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-25 13:18:06"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Apr/2025:12:26:17 +0000] \"POST / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-25 13:26:17"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 10:44:25"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 10:44:31"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:09:44:55 +0000] \"GET / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 10:44:55"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:09:46:53 +0000] \"POST / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 10:46:53"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:09:47:03 +0000] \"POST / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 10:47:03"}

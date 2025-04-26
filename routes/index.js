@@ -5,7 +5,7 @@ import express from 'express';
 const router = express.Router();
 
 /* GET home page. */
-router.get('/ping', function(req, res, next) {
+router.get('/test', function(req, res, next) {
   res.send( 'Welcome to the API' );
 });
 

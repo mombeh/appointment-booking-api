@@ -7,8 +7,9 @@ import path, {dirname} from 'node:path';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 import winstonLogger from "./utils/logger.js"
-
+import timeSlotRoutes from "./routes/timeSlot.js"
 import indexRouter from './routes/index.js';
+import appointmentRoutes from './routes/appointments.js'
 import usersRouter from './routes/users.js';
 
 const app = express();
@@ -26,9 +27,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/time-slot', timeSlotRoutes);
+app.use('/appointments', appointmentRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+  console.log(`Incoming request: ${req.method} ${req.url}`);
   next(createError(404));
 });
 
