@@ -1,11 +1,13 @@
 //app.js
-
+import './config/db.js'
 import createError from 'http-errors';
 import express from 'express';
 import { fileURLToPath } from 'node:url';
 import path, {dirname} from 'node:path';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
+import { initializeDbSchema } from "./config/db.js";
+import authRouter from "./routes/auth.js"
 import winstonLogger from "./utils/logger.js"
 import timeSlotRoutes from "./routes/timeSlot.js"
 import indexRouter from './routes/index.js';
@@ -13,6 +15,9 @@ import appointmentRoutes from './routes/appointments.js'
 import usersRouter from './routes/users.js';
 
 const app = express();
+
+await initializeDbSchema();
+
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -27,6 +32,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/auth', authRouter);
 app.use('/time-slot', timeSlotRoutes);
 app.use('/appointments', appointmentRoutes);
 

@@ -1,6 +1,6 @@
 import express from 'express';
-import { bookAppointment, viewMyAppointments, viewProviderAppointments, cancelAppointment } from '../controllers/appointmentController.js';
-import authMiddleware from '../middleware/authMiddleware.js'; // assuming you have this middleware
+import { bookAppointment, viewMyAppointments, viewProviderAppointments, cancelAppointment } from '../controllers/appointment-controller.js';
+import authMiddleware from '../middlewares/authmiddleware.js';
 
 const router = express.Router();
 

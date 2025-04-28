@@ -77,8 +77,6 @@ const swaggerOptions = {
             properties: {
               id: { type: 'string', format: 'uuid', description: 'Task ID' },
               user_id: { type: 'string', format: 'uuid', description: 'ID of the user who owns the task' },
-              title: { type: 'string', description: 'Task title' },
-              description: { type: 'string', nullable: true, description: 'Provider description' },
               start_time: { type: 'string', format: 'date-time', description: 'Timestamp of user start' },
               end_time: { type: 'string', format: 'date-time', description: 'Timestamp of last user end' },
             },

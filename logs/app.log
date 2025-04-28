@@ -16,3 +16,102 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:09:44:55 +0000] \"GET / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 10:44:55"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:09:46:53 +0000] \"POST / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 10:46:53"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:09:47:03 +0000] \"POST / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 10:47:03"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:05:56"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:05:56"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:06:21 +0000] \"POST /book HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:06:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:07:46 +0000] \"POST /book HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:07:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:08:00 +0000] \"GET /my HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:08:00"}
+{"level":"warn","message":"Auth middleware: no token provided","timestamp":"2025-04-26 12:10:37"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:10:37 +0000] \"POST /appointments/book HTTP/1.1\" 401 53 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:10:37"}
+{"level":"warn","message":"Auth middleware: no token provided","timestamp":"2025-04-26 12:13:07"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:13:07 +0000] \"GET /appointments/my HTTP/1.1\" 401 53 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:13:07"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:23:54 +0000] \"POST /time_slot/create HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:23:54"}
+{"level":"warn","message":"Auth middleware: no token provided","timestamp":"2025-04-26 12:24:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:24:14 +0000] \"POST /time-slot/create HTTP/1.1\" 401 53 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:24:14"}
+{"level":"error","message":"Auth middleware: token verification failed jwt malformed","name":"JsonWebTokenError","stack":"JsonWebTokenError: jwt malformed\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:70:17)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:16:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:174:3)","timestamp":"2025-04-26 12:26:09"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:26:09 +0000] \"POST /time-slot/create HTTP/1.1\" 401 32 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:26:09"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:28:12"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:28:12"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:28:27 +0000] \"GET / HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:28:27"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:32:00"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:32:00"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:38:31"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:38:31"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:42:53"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:42:53"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:43:38"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:43:38"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:44:43 +0000] \"POST /auth/login HTTP/1.1\" 400 35 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:44:43"}
+{"level":"error","message":"Error executing query: { text: SELECT id, email, first_name, last_name, password FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], error: database \"appointment-booking-api\" does not exist}","timestamp":"2025-04-26 12:47:57"}
+{"code":"3D000","file":"postinit.c","length":108,"level":"error","line":"890","message":"Error during login process for nadine@gmail.com:  database \"appointment-booking-api\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"appointment-booking-api\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async query (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:190:22)\n    at async loginHandler (file:///Users/15rebaseacademy/appointment-booking-api/controllers/userLogin-controller.js:11:24)","timestamp":"2025-04-26 12:47:57"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:47:57 +0000] \"POST /auth/login HTTP/1.1\" 500 65 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:47:57"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:49:32 +0000] \"POST /auth/login HTTP/1.1\" 400 43 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:49:32"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:49:54 +0000] \"POST /auth/login HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:49:54"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:50:06 +0000] \"POST /auth/login HTTP/1.1\" 400 35 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:50:06"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:50:36 +0000] \"POST /auth/register HTTP/1.1\" 400 39 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:50:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:51:24 +0000] \"POST /auth/register HTTP/1.1\" 400 112 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:51:24"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:52:14 +0000] \"POST /auth/register HTTP/1.1\" 400 112 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:52:14"}
+{"level":"error","message":"Error executing query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], error: database \"appointment-booking-api\" does not exist}","timestamp":"2025-04-26 12:53:36"}
+{"code":"3D000","file":"postinit.c","length":108,"level":"error","line":"890","message":"Error during user registration for nadine@gmail.com:  database \"appointment-booking-api\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"appointment-booking-api\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async query (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:190:22)\n    at async registerHandler (file:///Users/15rebaseacademy/appointment-booking-api/controllers/register-controller.js:13:29)","timestamp":"2025-04-26 12:53:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:53:36 +0000] \"POST /auth/register HTTP/1.1\" 500 639 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:53:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:53:56 +0000] \"POST /auth/register HTTP/1.1\" 400 112 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:53:56"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:11:59:10 +0000] \"POST /auth/register HTTP/1.1\" 400 111 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 12:59:10"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:59:35"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:59:36"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:59:38"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:59:38"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:59:41"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:59:41"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 12:59:44"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 12:59:44"}
+{"level":"error","message":"Error executing query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], error: database \"appointment-booking-api\" does not exist}","timestamp":"2025-04-26 13:00:08"}
+{"code":"3D000","file":"postinit.c","length":108,"level":"error","line":"890","message":"Error during user registration for nadine@gmail.com:  database \"appointment-booking-api\" does not exist","name":"error","routine":"InitPostgres","severity":"FATAL","stack":"error: database \"appointment-booking-api\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async query (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:190:22)\n    at async registerHandler (file:///Users/15rebaseacademy/appointment-booking-api/controllers/register-controller.js:13:29)","timestamp":"2025-04-26 13:00:08"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:12:00:08 +0000] \"POST /auth/register HTTP/1.1\" 500 639 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 13:00:08"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:06:07"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:06:07"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:11:53"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:11:54"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:13:15:35 +0000] \"POST /users/auth/register HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 14:15:35"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:25:35"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:25:35"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:37:25"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:37:26"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:37:26"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:37:31"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:37:32"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:37:35"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:37:36"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:40:06"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:40:06"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-26 14:51:03"}
+{"level":"error","message":"Error executing query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], error: relation \"users\" does not exist}","timestamp":"2025-04-26 14:51:04"}
+{"code":"42P01","file":"parse_relation.c","length":104,"level":"error","line":"1452","message":"Error during user registration for nadine@gmail.com:  relation \"users\" does not exist","name":"error","position":"19","routine":"parserOpenTable","severity":"ERROR","stack":"error: relation \"users\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async query (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:190:22)\n    at async registerHandler (file:///Users/15rebaseacademy/appointment-booking-api/controllers/register-controller.js:13:29)","timestamp":"2025-04-26 14:51:04"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:13:51:04 +0000] \"POST /auth/register HTTP/1.1\" 500 621 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 14:51:04"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:58:16"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:58:16"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:58:25"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:58:26"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:58:27"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:58:27"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:58:30"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:58:51"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:58:51"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:59:23"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:59:23"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 14:59:31"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-26 14:59:31"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-26 15:05:45"}
+{"level":"error","message":"Error executing query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], error: relation \"users\" does not exist}","timestamp":"2025-04-26 15:05:45"}
+{"code":"42P01","file":"parse_relation.c","length":104,"level":"error","line":"1452","message":"Error during user registration for nadine@gmail.com:  relation \"users\" does not exist","name":"error","position":"19","routine":"parserOpenTable","severity":"ERROR","stack":"error: relation \"users\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async query (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:190:22)\n    at async registerHandler (file:///Users/15rebaseacademy/appointment-booking-api/controllers/register-controller.js:13:29)","timestamp":"2025-04-26 15:05:45"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [26/Apr/2025:14:05:45 +0000] \"POST /auth/register HTTP/1.1\" 500 621 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-26 15:05:45"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 15:08:47"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-26 15:09:09"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-26 15:09:11"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-26 15:09:11"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-26 15:09:17"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-26 15:09:17"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-26 15:09:17"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-26 15:09:17"}
+{"code":"42601","file":"scan.l","length":101,"level":"error","line":"1248","message":"Error while initializing the schema syntax error at or near \"time_slot_id\"","name":"error","position":"45","routine":"scanner_yyerror","severity":"ERROR","stack":"error: syntax error at or near \"time_slot_id\"\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:106:5)\n    at async file:///Users/15rebaseacademy/appointment-booking-api/app.js:19:1","timestamp":"2025-04-26 15:09:17"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:02:15"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:02:48"}
