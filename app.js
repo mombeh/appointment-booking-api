@@ -1,12 +1,12 @@
 //app.js
-import './config/db.js'
 import createError from 'http-errors';
 import express from 'express';
 import { fileURLToPath } from 'node:url';
 import path, {dirname} from 'node:path';
 import cookieParser from 'cookie-parser';
+// import swaggerUi from "swagger-ui-express"
+// import swaggerSpec from './swaggerConfig.js';
 import morgan from 'morgan';
-import { initializeDbSchema } from "./config/db.js";
 import authRouter from "./routes/auth.js"
 import winstonLogger from "./utils/logger.js"
 import timeSlotRoutes from "./routes/timeSlot.js"
@@ -15,9 +15,6 @@ import appointmentRoutes from './routes/appointments.js'
 import usersRouter from './routes/users.js';
 
 const app = express();
-
-await initializeDbSchema();
-
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -31,17 +28,19 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/auth', authRouter);
-app.use('/time-slot', timeSlotRoutes);
-app.use('/appointments', appointmentRoutes);
+app.use('/api/users', usersRouter);
+app.use('/api/auth', authRouter);
+app.use('/api/time-slot', timeSlotRoutes);
+app.use('/api/appointments', appointmentRoutes);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  console.log(`Incoming request: ${req.method} ${req.url}`);
-  next(createError(404));
+app.use((req, res, next) => {
+  const error = new Error('Not Found');
+  error.status = 404;
+  next(error);
 });
 
+// app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
 export default app;

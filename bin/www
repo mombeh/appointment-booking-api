@@ -3,6 +3,7 @@
 import app from '../app.js';
 import http from 'http';
 import debug from 'debug';
+import { initializeDbSchema } from '../config/db.js';
 import winstonLogger from '../utils/logger.js'; // or whatever logger you use
 // import connectToDb and initializeDbSchema if you're using them
 
@@ -18,9 +19,7 @@ const startServer = async () => {
   try {
     logger.info(`Attempting to start server on port ${port}`);
     
-    // optional: if you have DB connection logic
-    // await connectToDb();
-    // await initializeDbSchema();
+    await initializeDbSchema(); // initialize DB before starting server
 
     server.listen(port);
     server.on('error', onError);
@@ -57,7 +56,7 @@ function onError(error) {
 function onListening() {
   const addr = server.address();
   const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
-  log('Listening on ' + bind);
+  log(`Listening on  + ${bind}`);
   console.log(`🚀 Server running at http://localhost:${port}/`);
 }
 

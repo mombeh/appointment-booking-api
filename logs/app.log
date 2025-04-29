@@ -115,3 +115,380 @@
 {"code":"42601","file":"scan.l","length":101,"level":"error","line":"1248","message":"Error while initializing the schema syntax error at or near \"time_slot_id\"","name":"error","position":"45","routine":"scanner_yyerror","severity":"ERROR","stack":"error: syntax error at or near \"time_slot_id\"\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:106:5)\n    at async file:///Users/15rebaseacademy/appointment-booking-api/app.js:19:1","timestamp":"2025-04-26 15:09:17"}
 {"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:02:15"}
 {"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:02:48"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:31:28"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:33:32"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:34:57"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:37:50"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:50:20"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:51:16"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:54:03"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 13:54:17"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 14:00:12"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 14:00:57"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 14:02:36"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 14:04:05"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 14:10:07"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 14:17:12"}
+{"level":"info","message":"Database is configured for: appointment-booking-api","timestamp":"2025-04-28 16:10:36"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:15:37"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:15:38"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:15:38"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:15:38"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:15:58"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:15:58"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:15:58"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:15:58"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:15:58"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:16:07"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:16:07"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:16:08"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:16:09"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:108:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:16:10"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:16:35"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:108:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:16:35"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:20:40"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:20:41"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:110:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:20:41"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:21:23"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:21:24"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:110:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:21:24"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:21:28"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:110:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:21:28"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:27:39"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:110:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:27:39"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:31:47"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:31:47"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:34:13"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:34:13"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:37:21"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:37:22"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:37:22"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:38:10"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:38:10"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:38:18"}
+{"code":"42601","file":"scan.l","length":90,"level":"error","line":"1180","message":"Error while initializing the schema syntax error at or near \"-\"","name":"error","position":"54","routine":"scanner_yyerror","severity":"ERROR","stack":"error: syntax error at or near \"-\"\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:38:18"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:38:19"}
+{"code":"42601","file":"scan.l","length":90,"level":"error","line":"1180","message":"Error while initializing the schema syntax error at or near \"-\"","name":"error","position":"54","routine":"scanner_yyerror","severity":"ERROR","stack":"error: syntax error at or near \"-\"\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:38:19"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:38:22"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:38:22"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:38:23"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:38:23"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:38:24"}
+{"code":"42703","file":"indexcmds.c","length":102,"level":"error","line":"1843","message":"Error while initializing the schema column \"time_slot_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","severity":"ERROR","stack":"error: column \"time_slot_id\" does not exist\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg/lib/client.js:545:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async initializeDbSchema (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:109:5)\n    at async startServer (file:///Users/15rebaseacademy/appointment-booking-api/bin/www:22:5)","timestamp":"2025-04-28 17:38:24"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-28 17:51:17"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 17:52:13"}
+{"level":"info","message":"Executed query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], duration: 232ms, rows: 0}","timestamp":"2025-04-28 17:52:13"}
+{"level":"info","message":"Executed query: { text: INSERT INTO users (first_name, last_name, email, password) \n                        VALUES($1,$2,$3,..., params: [\"nkwenui\",\"nadine\",\"nadine@gmail.com\",\"$2b$10$YgeALOLYgsdpNsTmNFmjzO4CZ1R0GNhP.NARzIsgiMJAIYvTzemf6\"], duration: 43ms, rows: 1}","timestamp":"2025-04-28 17:52:13"}
+{"level":"info","message":"User registered successfully: 0b996fb3-d4b9-4fd8-a326-9bdad086e8a5","timestamp":"2025-04-28 17:52:13"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Apr/2025:16:52:13 +0000] \"POST /auth/register HTTP/1.1\" 201 97 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-28 17:52:13"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Apr/2025:19:51:07 +0000] \"POST /auth/login HTTP/1.1\" 400 42 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-28 20:51:07"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-28 20:51:46"}
+{"level":"info","message":"Executed query: { text: SELECT id, email, first_name, last_name, password FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], duration: 117ms, rows: 1}","timestamp":"2025-04-28 20:51:46"}
+{"level":"info","message":"User logged in successfully: nadine@gmail.com (ID: 0b996fb3-d4b9-4fd8-a326-9bdad086e8a5)","timestamp":"2025-04-28 20:51:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Apr/2025:19:51:46 +0000] \"POST /auth/login HTTP/1.1\" 200 400 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-28 20:51:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Apr/2025:19:55:21 +0000] \"POST /users/me HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-28 20:55:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [28/Apr/2025:19:55:24 +0000] \"POST /users/me HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-28 20:55:24"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-29 06:23:02"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-29 06:23:02"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-29 06:23:03"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-29 06:23:44"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-29 06:23:44"}
+{"level":"warn","message":"Auth middleware: no token provided","timestamp":"2025-04-29 06:24:25"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:24:25 +0000] \"GET /users/me HTTP/1.1\" 401 53 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:24:25"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:26:28 +0000] \"POST /auth/register HTTP/1.1\" 400 39 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:26:28"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:26:52"}
+{"level":"info","message":"Executed query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nadine@gmail.com\"], duration: 248ms, rows: 1}","timestamp":"2025-04-29 06:26:52"}
+{"level":"warn","message":"Registrationg attempt failed: Email already exists - nadine@gmail.com","timestamp":"2025-04-29 06:26:52"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:26:52 +0000] \"POST /auth/register HTTP/1.1\" 409 34 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:26:52"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:27:07"}
+{"level":"info","message":"Executed query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nkwenui@gmail.com\"], duration: 7ms, rows: 0}","timestamp":"2025-04-29 06:27:07"}
+{"level":"info","message":"Executed query: { text: INSERT INTO users (first_name, last_name, email, password) \n                        VALUES($1,$2,$3,..., params: [\"nkwenui\",\"nadine\",\"nkwenui@gmail.com\",\"$2b$10$Dmj4o8p8CiwoBmjBl9bBeuTThAK46B6/.mw5AyYPVuXBVVPNiGKfm\"], duration: 55ms, rows: 1}","timestamp":"2025-04-29 06:27:07"}
+{"level":"info","message":"User registered successfully: 225958c0-7347-4291-ac22-590f3cd4a38f","timestamp":"2025-04-29 06:27:07"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:27:07 +0000] \"POST /auth/register HTTP/1.1\" 201 97 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:27:07"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:27:29"}
+{"level":"info","message":"Executed query: { text: SELECT id, email, first_name, last_name, password FROM users WHERE email = $1..., params: [\"nkwenui@gmail.com\"], duration: 6ms, rows: 1}","timestamp":"2025-04-29 06:27:29"}
+{"level":"info","message":"User logged in successfully: nkwenui@gmail.com (ID: 225958c0-7347-4291-ac22-590f3cd4a38f)","timestamp":"2025-04-29 06:27:29"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:27:29 +0000] \"POST /auth/login HTTP/1.1\" 200 402 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:27:29"}
+{"level":"warn","message":"Auth middleware: no token provided","timestamp":"2025-04-29 06:28:17"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:28:17 +0000] \"GET /users/me HTTP/1.1\" 401 53 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:28:17"}
+{"email":"nkwenui@gmail.com","id":"225958c0-7347-4291-ac22-590f3cd4a38f","level":"info","message":"Fetching current user data for:","timestamp":"2025-04-29 06:29:24"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:29:24 +0000] \"GET /users/me HTTP/1.1\" 200 82 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:29:24"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:31:03 +0000] \"GET /time-slot/create HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:31:03"}
+{"level":"warn","message":"Auth middleware: no token provided","timestamp":"2025-04-29 06:31:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:31:16 +0000] \"POST /time-slot/create HTTP/1.1\" 401 53 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:31:16"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:32:12"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 43ms, rows: 0}","timestamp":"2025-04-29 06:32:12"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:32:12 +0000] \"POST /time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:32:12"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:36:16"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 96ms, rows: 0}","timestamp":"2025-04-29 06:36:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:36:16 +0000] \"POST /time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:36:16"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:38:32"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 78ms, rows: 0}","timestamp":"2025-04-29 06:38:32"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:38:32 +0000] \"POST /time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:38:32"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:58:30"}
+{"level":"error","message":"Error executing query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [\"nadine\"], error: invalid input syntax for type uuid: \"nadine\"}","timestamp":"2025-04-29 06:58:30"}
+{"code":"22P02","file":"uuid.c","length":138,"level":"error","line":"137","message":"Error during time slot creation: invalid input syntax for type uuid: \"nadine\"","name":"error","routine":"string_to_uuid","severity":"ERROR","stack":"error: invalid input syntax for type uuid: \"nadine\"\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async query (file:///Users/15rebaseacademy/appointment-booking-api/config/db.js:192:22)\n    at async createTimeSlotHandler (file:///Users/15rebaseacademy/appointment-booking-api/controllers/timeSlot-controller.js:10:33)","timestamp":"2025-04-29 06:58:31","where":"unnamed portal parameter $1 = '...'"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:58:31 +0000] \"POST /time-slot/create HTTP/1.1\" 500 35 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:58:31"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 06:58:56"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 8ms, rows: 0}","timestamp":"2025-04-29 06:58:56"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:05:58:56 +0000] \"POST /time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 06:58:56"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 07:09:38"}
+{"level":"info","message":"Executed query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nelly@gmail.com\"], duration: 14ms, rows: 0}","timestamp":"2025-04-29 07:09:38"}
+{"level":"info","message":"Executed query: { text: INSERT INTO users (first_name, last_name, email, password) \n                        VALUES($1,$2,$3,..., params: [\"mombeh\",\"nelly\",\"nelly@gmail.com\",\"$2b$10$2UzwgyBHecf7778JN7aOtOlQEDgEtwOOvWTgg86LxBvnpLRr07f8.\"], duration: 1ms, rows: 1}","timestamp":"2025-04-29 07:09:38"}
+{"level":"info","message":"User registered successfully: 313a7707-1739-4430-9af1-18ace0845cff","timestamp":"2025-04-29 07:09:38"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:09:38 +0000] \"POST /auth/register HTTP/1.1\" 201 97 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:09:38"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:10:19 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:10:19"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:15:23 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:15:23"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:15:25 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:15:25"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:22:38 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:22:38"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:23:16 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:23:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:26:29 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:26:29"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:26:32 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:26:32"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:43:27 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:43:27"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:43:30 +0000] \"POST /auth/register HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:43:30"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:43:45 +0000] \"POST /auth/login HTTP/1.1\" 400 42 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:43:45"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:43:53 +0000] \"POST /auth/login HTTP/1.1\" 400 37 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:43:53"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:44:46 +0000] \"POST /user/me HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:44:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:50:46 +0000] \"POST /auth/rigister HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:50:46"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:06:57:55 +0000] \"POST /api/auth/rigister HTTP/1.1\" 404 1383 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 07:57:55"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-29 08:31:19"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-29 08:31:19"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-29 08:31:20"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:31:29 +0000] \"POST /api/auth/rigister HTTP/1.1\" 404 1376 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:31:29"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:33:55 +0000] \"POST /auth/rigister HTTP/1.1\" 404 1376 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:33:55"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-29 08:34:52"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:35:33 +0000] \"POST /auth/register HTTP/1.1\" 404 1376 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:35:33"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:37:01 +0000] \"POST /api/auth/register HTTP/1.1\" 400 48 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:37:01"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:37:20"}
+{"level":"info","message":"Executed query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nelly@gmail.com\"], duration: 50ms, rows: 1}","timestamp":"2025-04-29 08:37:20"}
+{"level":"warn","message":"Registration attempt failed: Email already exists - nelly@gmail.com","timestamp":"2025-04-29 08:37:20"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:37:20 +0000] \"POST /api/auth/register HTTP/1.1\" 409 34 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:37:20"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:37:35"}
+{"level":"info","message":"Executed query: { text: SELECT email FROM users WHERE email = $1..., params: [\"nel@gmail.com\"], duration: 6ms, rows: 0}","timestamp":"2025-04-29 08:37:35"}
+{"level":"info","message":"Executed query: { text: \n      INSERT INTO users (first_name, last_name, email, password)\n      VALUES ($1, $2, $3, $4)\n    ..., params: [\"mombeh\",\"nelly\",\"nel@gmail.com\",\"$2b$10$b8ReRADb96ZEOOphFbAmAOlvQhleYALwzvYS3xYHEqDuLo8dMC/K2\"], duration: 184ms, rows: 1}","timestamp":"2025-04-29 08:37:35"}
+{"level":"info","message":"User registered successfully: bd14ab9b-08b1-4180-9901-e1240b24da6f","timestamp":"2025-04-29 08:37:35"}
+{"level":"info","message":"Executed query: { text: \n        INSERT INTO service_providers (id, name, service_type, email)\n        VALUES ($1, $2, $3, $..., params: [\"bd14ab9b-08b1-4180-9901-e1240b24da6f\",\"mombeh nelly\",null,\"nel@gmail.com\"], duration: 148ms, rows: 1}","timestamp":"2025-04-29 08:37:35"}
+{"level":"info","message":"Provider registered: bd14ab9b-08b1-4180-9901-e1240b24da6f","timestamp":"2025-04-29 08:37:35"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:37:35 +0000] \"POST /api/auth/register HTTP/1.1\" 201 101 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:37:35"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:38:25"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:38:25 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:38:25"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:38:56"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:38:56 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:38:56"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:39:06"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:39:06 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:39:06"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-29 08:39:22"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-29 08:39:23"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-29 08:39:23"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:39:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:39:36 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:39:36"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:40:22"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:40:22 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:40:22"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:40:23"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:40:23 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:40:23"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:41:13"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:41:13 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:41:13"}
+{"expiredAt":"2025-04-29T06:27:29.000Z","level":"error","message":"Auth middleware: Token verification failed jwt expired","name":"TokenExpiredError","stack":"TokenExpiredError: jwt expired\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:190:21\n    at getSecret (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/15rebaseacademy/appointment-booking-api/node_modules/jsonwebtoken/verify.js:101:10)\n    at authMiddleware (file:///Users/15rebaseacademy/appointment-booking-api/middlewares/authmiddleware.js:15:25)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/15rebaseacademy/appointment-booking-api/node_modules/express/lib/router/index.js:335:12)","timestamp":"2025-04-29 08:41:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:41:16 +0000] \"POST /api/time-slot/create HTTP/1.1\" 401 27 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:41:16"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:46:11 +0000] \"POST /auth/login HTTP/1.1\" 404 1376 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:46:11"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:46:48"}
+{"level":"info","message":"Executed query: { text: SELECT id, email, first_name, last_name, password FROM users WHERE email = $1..., params: [\"nkwenui@gmail.com\"], duration: 133ms, rows: 1}","timestamp":"2025-04-29 08:46:48"}
+{"level":"info","message":"User logged in successfully: nkwenui@gmail.com (ID: 225958c0-7347-4291-ac22-590f3cd4a38f)","timestamp":"2025-04-29 08:46:48"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:46:48 +0000] \"POST /api/auth/login HTTP/1.1\" 200 402 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:46:48"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:47:08"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 7ms, rows: 0}","timestamp":"2025-04-29 08:47:08"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:47:08 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:47:08"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 08:47:47"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 7ms, rows: 0}","timestamp":"2025-04-29 08:47:47"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:07:47:47 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 08:47:47"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 09:00:27"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 18ms, rows: 0}","timestamp":"2025-04-29 09:00:27"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:00:27 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:00:27"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 1ms, rows: 0}","timestamp":"2025-04-29 09:00:28"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:00:28 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:00:28"}
+{"level":"info","message":"Database is configured for: appointment_booking_api","timestamp":"2025-04-29 09:20:50"}
+{"level":"info","message":"Attempting to start server on port 4000","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"pgcrypto extension ensured","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"Users table has been created","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"service_provider table has been created","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"time_slots table has been created","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"appointments table has been created","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"Indexes created","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"Pre-configured providers inserted","timestamp":"2025-04-29 09:20:51"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 09:21:02"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 100ms, rows: 0}","timestamp":"2025-04-29 09:21:02"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:21:02 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:21:02"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 09:22:25"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 23ms, rows: 0}","timestamp":"2025-04-29 09:22:25"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:22:25 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:22:25"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 1ms, rows: 0}","timestamp":"2025-04-29 09:22:27"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:22:27 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:22:27"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 09:28:57"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 8ms, rows: 0}","timestamp":"2025-04-29 09:28:57"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:28:57 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:28:57"}
+{"level":"info","message":"Client connected from Pool (Total count: 1)","timestamp":"2025-04-29 09:34:32"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM service_providers WHERE id = $1..., params: [null], duration: 8ms, rows: 0}","timestamp":"2025-04-29 09:34:32"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [29/Apr/2025:08:34:32 +0000] \"POST /api/time-slot/create HTTP/1.1\" 404 40 \"-\" \"insomnia/11.0.2\"","timestamp":"2025-04-29 09:34:32"}

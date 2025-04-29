@@ -15,5 +15,4 @@ router.delete('/delete/:id', authMiddleware, deleteTimeSlotHandler);
 router.get('/available', viewAvailableSlotsHandler);
 
 
-
 export default router;
